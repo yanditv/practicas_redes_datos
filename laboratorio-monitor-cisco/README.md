@@ -133,8 +133,6 @@ interfaces_arriba_dispositivo{dispositivo="r1"} 10
 
 ## Desarrollar
 
-Actividades
-
 - Agrega un nuevo router en devices.yaml (por ejemplo, r3).
 - Modifica el script para recolectar una métrica adicional (ej. memoria).
 - Usa curl localhost:8000/metrics desde terminal para obtener las métricas.
@@ -146,3 +144,10 @@ Actividades
 1. ¿Qué otras métricas útiles se podrían monitorear?
 2. ¿Qué ventajas ofrece Prometheus sobre herramientas?
 3. ¿Qué diferencias hay entre SNMP y este tipo de monitoreo?
+
+## Recursos adicionales
+
+- [Documentación oficial de Netmiko](https://github.com/ktbyers/netmiko)
+
+- [Prometheus client for Python](https://github.com/prometheus/client_python)
+- [Documentacion de Prometeus Client for Python](https://prometheus.github.io/client_python/)
